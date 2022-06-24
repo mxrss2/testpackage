@@ -3,11 +3,11 @@ import type { SyntheticsConfig } from '@elastic/synthetics';
 export default env => {
   const config: SyntheticsConfig = {
     params: {
-      url: 'https://marcomcentral.app.pti.com/JensenMRC/login.aspx?uigroup_id=510232',
-      dashboard_url: 'https://bi.pti.com/app/main#/dashboards/5af644319c6ed808b4819d6c?h=false',
+      url: '***',
+      dashboard_url: '***',
       creds: {
-        username: 'BI_Test',
-        password: 'welcome123'
+        username: '**',
+        password: '*****'
       }
     },
     playwrightOptions: {
