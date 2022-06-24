@@ -5,11 +5,7 @@ import { journey, step, monitor,  expect, beforeAll } from '@elastic/synthetics'
 journey('Check BI Integration', ({ page, params }) => {
   // Only relevant for the push command to create
   // monitors in Kibana
-  monitor.use({
-    id: 'example-monitor',
-    schedule: 10,
-  });
-
+ 
 
 
   step('Log into application', async () => {
